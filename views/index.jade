@@ -48,6 +48,23 @@ html(lang='en')
       // Example row of columns
       .row
         .col-md-12
+          #dropdowns
+            | City:
+            select
+              option(value='Boston')
+                | Boston
+              option(value='NYC')
+                | NYC
+              option(value='DC')
+                | DC
+            |   Category:
+            select
+              option(value='Dining')
+                | Dining
+              option(value='Sports')
+                | Sports Retail
+              option(value='beauty')
+                | Beauty and Health
           #root  
       hr
       footer
